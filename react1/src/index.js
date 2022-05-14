@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Title from "./Title";
+import Body from "./Body";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  "Hello"
+  <div className='Survey'>
+  <Title />
+  <Body />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
