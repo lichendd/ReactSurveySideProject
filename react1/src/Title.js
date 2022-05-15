@@ -1,8 +1,9 @@
+// Title contains a survey title
 function Title() {
     return(
-        <div>
-            "This is title"
-        </div>
+        <h1>
+            Please fillin this survey to help us better understand you
+        </h1>
     );
 }
 

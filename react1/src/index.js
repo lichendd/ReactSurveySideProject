@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Title from "./Title";
 import Body from "./Body";
+import Bottom from "./Bottom";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <div className='Survey'>
   <Title />
   <Body />
+  <Bottom />
   </div>
 );
 
