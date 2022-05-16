@@ -1,3 +1,5 @@
+import "../questions.json"
+
 function Body() {
     return(
         <div>

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Title from "./Title";
-import Body from "./Body";
+import Body from "./Body/Body";
 import Bottom from "./Bottom";
 import reportWebVitals from './reportWebVitals';
 
