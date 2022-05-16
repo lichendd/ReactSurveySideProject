@@ -1,4 +1,4 @@
-[
+const Questions = [
     {
         "id" : 1,
         "question" : "Which university are you attending?"
@@ -15,3 +15,5 @@
         ]
     }
 ]
+
+export default Questions

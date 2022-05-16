@@ -1,9 +1,15 @@
-import "../questions.json"
+import Questions from "../questions"
+import Question from "./Question"
 
 function Body() {
     return(
         <div>
-            "This is body"
+            <h1>
+            Please fillin this survey to help us better understand you
+            </h1>
+            {Questions.map((item) => (
+                <Question key={item.id} item={item} />
+            ))}
         </div>
     );
 }
