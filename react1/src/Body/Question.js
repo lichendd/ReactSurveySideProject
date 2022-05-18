@@ -1,12 +1,16 @@
 // A Question component displaies one question in questions.json
 import "./QuestionStyle.css"
+import TextField from "./TextField.tsx";
 
 function Question({key, item}) {
     const hasChoice = item.hasChoice;
     return(
         <div>
             {!hasChoice ? (
-                <div className="question">{item.question}</div>
+                <div>
+                    <div className="question">{item.question}</div>
+                    <TextField />
+                </div>
             ):(
                 <div>
                     <div className="question">{item.question}</div>
