@@ -1,5 +1,6 @@
 import Questions from "../questions"
 import Question from "./Question"
+import "./BodyStyle.css"
 
 function Body() {
     return(
