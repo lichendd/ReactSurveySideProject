@@ -1,11 +1,13 @@
 const Questions = [
     {
         "id" : 1,
-        "question" : "Which university are you attending?"
+        "question" : "Which university are you attending?",
+        "hasChoice" : false
     },
     {
         "id": 2,
         "question" : "which year are you at?",
+        "hasChoice" : true,
         "choices" : [
             "year 1",
             "year 2",
