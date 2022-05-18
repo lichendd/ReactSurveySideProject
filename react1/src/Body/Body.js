@@ -6,8 +6,11 @@ function Body() {
     return(
         <div>
             <h1>
-            Please fillin this survey to help us better understand you
+                Student Information Survey
             </h1>
+            <h2>
+            Please fillin this survey to help us better understand you
+            </h2>
             {Questions.map((item) => (
                 <Question key={item.id} item={item} />
             ))}
