@@ -12,3 +12,7 @@ The project is not finished. I am still developing some of its features.
   - Links to my other projects
   - A short paragraph about me
   - Contact information
+
+## Highlights
+- Used bootstrap for some components' design
+- Save user responses (to be done)
