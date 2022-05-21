@@ -22,7 +22,7 @@ function FooterPage () {
           <a href='' className='me-4 text-reset'>
             <i className='fab fa-instagram'></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/in/lichen-yu/' className='me-4 text-reset'>
             <i className='fab fa-linkedin'></i>
           </a>
           <a href='' className='me-4 text-reset'>
@@ -35,7 +35,7 @@ function FooterPage () {
         <div className='container text-center text-md-start mt-5'>
           <div className='row mt-3'>
             <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4 font-weight-bold'>
                 <i></i>Lichen Yu
               </h6>
               <p>
@@ -44,7 +44,7 @@ function FooterPage () {
             </div>
 
             <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Skills</h6>
+              <h6 className='text-uppercase fw-bold mb-4 font-weight-bold'>Skills</h6>
               {/* <p>
                 <a href='#!' className='text-reset'>
                   React
@@ -62,13 +62,13 @@ function FooterPage () {
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  AWS, Google Cloud Platform
+                  AWS, Google Cloud Platform, Docker
                 </a>
               </p>
             </div>
 
             <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Projects(Clickable)</h6>
+              <h6 className='text-uppercase fw-bold mb-4 font-weight-bold'>Projects(Clickable)</h6>
               {/* <p>
                 <a href='https://www.linkedin.com/in/lichen-yu/' className='text-reset'>
                   Linkedin
@@ -92,7 +92,7 @@ function FooterPage () {
             </div>
 
             <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4 font-weight-bold'>Contact</h6>
               <p>
                 <i className='fas fa-home me-3'></i> 330 Phillip St, Waterloo, Ontario
               </p>
@@ -102,9 +102,11 @@ function FooterPage () {
               <p>
                 <i className='fas fa-phone me-3'></i> + 01 674 917 8176
               </p>
-              {/* <p>
-                <i className='fab fa-github'></i> https://github.com/lichendd?tab=repositories
-              </p> */}
+              <a href='https://www.linkedin.com/in/lichen-yu/' className='me-4 text-reset'>
+                <p>
+                  <i className='fab fa-linkedin'></i> LinkedIn Profile
+                </p>
+              </a>
             </div>
           </div>
         </div>
