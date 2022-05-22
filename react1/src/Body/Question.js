@@ -18,10 +18,9 @@ function Question({key, item}) {
                         <div className="topping">
                             <input type="checkbox" id="topping" name="topping" 
                             value="Choice" />
-                            {choice}
+                             {choice}
                         </div>
                     ))}
-                    
                 </div>
             )}
         </div>

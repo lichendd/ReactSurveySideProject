@@ -6,7 +6,7 @@ const Questions = [
     },
     {
         "id": 2,
-        "question" : "which year are you at?",
+        "question" : "Which year are you at?",
         "hasChoice" : true,
         "choices" : [
             "year 1",

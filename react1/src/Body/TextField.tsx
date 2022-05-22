@@ -8,7 +8,7 @@ interface TextFieldProps {
 const TextField = ({ value, onChange }: TextFieldProps) => {
   return (
     <input
-      className="rounded-md w-full border border-gray-400 p-3 mb-5"
+      className="rounded-md w-full border border-gray-400 p-2 mb-2"
       value={value}
       onChange={({ target: { value } }) => onChange(value)}
     />
