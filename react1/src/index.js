@@ -1,20 +1,22 @@
-import React from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 import Title from "./Header/Title";
 import Body from "./Body/Body";
 import FooterPage from "./FooterPage.jsx";
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div className='Survey'>
-  <Title />
-  <Body />
-  <FooterPage />
+  <div className="Survey">
+    <Title />
+    <div className="container">
+      <Body />
+    </div>
+    <FooterPage />
   </div>
 );
 
