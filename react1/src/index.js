@@ -8,14 +8,18 @@ import Title from "./Header/Title";
 import Body from "./Body/Body";
 import FooterPage from "./FooterPage.jsx";
 import reportWebVitals from "./reportWebVitals";
+import SurveyPage from "./Pages/SurveyPage";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="Survey">
     <Title />
-    <div className="container">
-      <Body />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SurveyPage />} />
+      </Routes>
+    </Router>
     <FooterPage />
   </div>
 );
