@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const SubmittedPage = () => {
   return (
-    <h1>Surbey submitted. Thanks you!</h1>
-  )
-}
+    <div className="container">
+      <h1>Surbey submitted. Thanks you!</h1>
+    </div>
+  );
+};
 
 export default SubmittedPage;

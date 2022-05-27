@@ -5,7 +5,7 @@ import "./BodyStyle.css"
 
 function Body() {
     return (
-      <div>
+      <>
         <h1>Student Information Survey</h1>
         <h2>Please fillin this survey to help us better understand you</h2>
         {Questions.map((item) => (
@@ -14,7 +14,7 @@ function Body() {
         <button type="button" class="btn btn-light">
           Submit
         </button>
-      </div>
+      </>
     );
 }
 
