@@ -10,6 +10,7 @@ import FooterPage from "./FooterPage.jsx";
 import reportWebVitals from "./reportWebVitals";
 import SurveyPage from "./Pages/SurveyPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SubmittedPage from "./Pages/SubmittedPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<SurveyPage />} />
+        <Route path="/submitted" element={<SubmittedPage />} />
       </Routes>
     </Router>
     <FooterPage />
