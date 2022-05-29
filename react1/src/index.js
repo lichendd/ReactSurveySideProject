@@ -22,7 +22,7 @@ root.render(
         <Route path="/submitted" element={<SubmittedPage />} />
       </Routes>
     </Router>
-    <FooterPage />
+    <FooterPage class="fixed-bottom" />
   </div>
 );
 
