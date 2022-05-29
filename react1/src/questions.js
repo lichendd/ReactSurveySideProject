@@ -15,6 +15,11 @@ const Questions = [
             "year 4",
             "year 5"
         ]
+    },
+    {
+        "id": 3,
+        "question" : "Which program are you studying?",
+        "hasChoice" : false,
     }
 ]
 
