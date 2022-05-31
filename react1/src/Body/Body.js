@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function Body() {
   return (
-    <div className="container-fluid">
+    <div className="anyClass">
       <h1>Student Information Survey</h1>
       <h2>Please fillin this survey to help us better understand you</h2>
       {Questions.map((item) => (
