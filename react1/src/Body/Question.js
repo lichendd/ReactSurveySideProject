@@ -5,7 +5,7 @@ import TextField from "./TextField.tsx";
 function Question({key, item}) {
     const hasChoice = item.hasChoice;
     return(
-        <div>
+        <div className="question">
             {!hasChoice ? (
                 <div>
                     <div className="question">Question {item.id} {item.question}</div>
