@@ -18,7 +18,8 @@ function Question({key, item}) {
         ) : (
           <div>
             <div className="question">
-              Question {item.id} {item.question}
+              <Text style={{ fontWeight: "bold" }}>Question {item.id}</Text>{" "}
+               {item.question}
             </div>
             {item.choices.map((choice) => (
               <div className="topping">
@@ -28,6 +29,7 @@ function Question({key, item}) {
                   name="topping"
                   value="Choice"
                 />
+                <Text>{"  "}</Text>
                 {choice}
               </div>
             ))}
