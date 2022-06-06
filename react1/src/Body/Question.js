@@ -16,7 +16,7 @@ function Question({ key, item }) {
           <input
             type="text"
             class="main-input main-name"
-            placeholder={"This is placeholder"}
+            placeholder={"Please type your answer"}
           />
           {/* <TextField placeholder={"This is placeholder"} /> */}
         </div>
